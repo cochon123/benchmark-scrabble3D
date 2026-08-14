@@ -1,0 +1,5902 @@
+[
+  {
+    "id": "prism-01",
+    "density": "sparse",
+    "dataset_version": "15x15x15-v1",
+    "board_size": 15,
+    "board": [
+      {
+        "x": 5,
+        "y": 7,
+        "z": 7,
+        "letter": "S",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "z": 7,
+        "letter": "T",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 7,
+        "letter": "O",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 8,
+        "y": 7,
+        "z": 7,
+        "letter": "N",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 9,
+        "y": 7,
+        "z": 7,
+        "letter": "E",
+        "is_blank": false,
+        "is_existing": true
+      }
+    ],
+    "rack": "AERILST",
+    "optimal_score": 67,
+    "optimal_moves": [
+      {
+        "placements": [
+          {
+            "x": 4,
+            "y": 6,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 6,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 6,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 7,
+            "letter": "L",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 6,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 6,
+            "z": 7,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 6,
+            "z": 7,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 67,
+        "words": [
+          "AS",
+          "EN",
+          "IT",
+          "LO",
+          "RE",
+          "TAILERS"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 4,
+            "y": 7,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 6,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 6,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 6,
+            "letter": "L",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 6,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 6,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 67,
+        "words": [
+          "AS",
+          "EN",
+          "IT",
+          "LO",
+          "RE",
+          "TAILERS"
+        ],
+        "axis": "x"
+      }
+    ],
+    "canonical_optimal_move": {
+      "placements": [
+        {
+          "x": 4,
+          "y": 6,
+          "z": 7,
+          "letter": "T",
+          "is_blank": false
+        },
+        {
+          "x": 5,
+          "y": 6,
+          "z": 7,
+          "letter": "A",
+          "is_blank": false
+        },
+        {
+          "x": 6,
+          "y": 6,
+          "z": 7,
+          "letter": "I",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "z": 7,
+          "letter": "L",
+          "is_blank": false
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "z": 7,
+          "letter": "E",
+          "is_blank": false
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "z": 7,
+          "letter": "R",
+          "is_blank": false
+        },
+        {
+          "x": 10,
+          "y": 6,
+          "z": 7,
+          "letter": "S",
+          "is_blank": false
+        }
+      ],
+      "score": 67,
+      "words": [
+        "AS",
+        "EN",
+        "IT",
+        "LO",
+        "RE",
+        "TAILERS"
+      ],
+      "axis": "x"
+    }
+  },
+  {
+    "id": "prism-02",
+    "density": "sparse",
+    "dataset_version": "15x15x15-v1",
+    "board_size": 15,
+    "board": [
+      {
+        "x": 7,
+        "y": 5,
+        "z": 7,
+        "letter": "P",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "z": 7,
+        "letter": "L",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 7,
+        "letter": "A",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 8,
+        "z": 7,
+        "letter": "N",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "z": 7,
+        "letter": "E",
+        "is_blank": false,
+        "is_existing": true
+      }
+    ],
+    "rack": "DEIRST?",
+    "optimal_score": 69,
+    "optimal_moves": [
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 3,
+            "z": 8,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 8,
+            "letter": "A",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 8,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 8,
+            "letter": "D",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 8,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 8,
+            "letter": "R",
+            "is_blank": false
+          }
+        ],
+        "score": 69,
+        "words": [
+          "AD",
+          "ER",
+          "LI",
+          "NE",
+          "PA",
+          "STAIDER"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 3,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 8,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 8,
+            "letter": "O",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 8,
+            "letter": "D",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 8,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 8,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 69,
+        "words": [
+          "AD",
+          "ES",
+          "LO",
+          "NE",
+          "PI",
+          "TRIODES"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 8,
+            "y": 3,
+            "z": 7,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 5,
+            "z": 7,
+            "letter": "A",
+            "is_blank": true
+          },
+          {
+            "x": 8,
+            "y": 6,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 7,
+            "letter": "D",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 8,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 9,
+            "z": 7,
+            "letter": "R",
+            "is_blank": false
+          }
+        ],
+        "score": 69,
+        "words": [
+          "AD",
+          "ER",
+          "LI",
+          "NE",
+          "PA",
+          "STAIDER"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 8,
+            "y": 3,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 5,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 6,
+            "z": 7,
+            "letter": "O",
+            "is_blank": true
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 7,
+            "letter": "D",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 8,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 9,
+            "z": 7,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 69,
+        "words": [
+          "AD",
+          "ES",
+          "LO",
+          "NE",
+          "PI",
+          "TRIODES"
+        ],
+        "axis": "y"
+      }
+    ],
+    "canonical_optimal_move": {
+      "placements": [
+        {
+          "x": 7,
+          "y": 3,
+          "z": 8,
+          "letter": "S",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "z": 8,
+          "letter": "T",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 5,
+          "z": 8,
+          "letter": "A",
+          "is_blank": true
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "z": 8,
+          "letter": "I",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "z": 8,
+          "letter": "D",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "z": 8,
+          "letter": "E",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "z": 8,
+          "letter": "R",
+          "is_blank": false
+        }
+      ],
+      "score": 69,
+      "words": [
+        "AD",
+        "ER",
+        "LI",
+        "NE",
+        "PA",
+        "STAIDER"
+      ],
+      "axis": "y"
+    }
+  },
+  {
+    "id": "prism-03",
+    "density": "sparse",
+    "dataset_version": "15x15x15-v1",
+    "board_size": 15,
+    "board": [
+      {
+        "x": 7,
+        "y": 7,
+        "z": 5,
+        "letter": "C",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 6,
+        "letter": "L",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 7,
+        "letter": "O",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 8,
+        "letter": "U",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 9,
+        "letter": "D",
+        "is_blank": false,
+        "is_existing": true
+      }
+    ],
+    "rack": "AEINRST",
+    "optimal_score": 66,
+    "optimal_moves": [
+      {
+        "placements": [
+          {
+            "x": 1,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 2,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "RATINES"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 1,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 2,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "RETAINS"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 1,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 2,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "RETINAS"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ANESTRI",
+          "CLOUDS"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ANTSIER",
+          "CLOUDS"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "RETSINA"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "NASTIER"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 1,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 2,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "RATINES"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 1,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 2,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "RETAINS"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 1,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 2,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "RETINAS"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ANESTRI",
+          "CLOUDS"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ANTSIER",
+          "CLOUDS"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "RETSINA"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 5,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 11,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "NASTIER"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 11,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 12,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "STAINER"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 11,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 12,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "STEARIN"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 13,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "STAINER"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "letter": "S",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 10,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 7,
+            "z": 10,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 7,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 13,
+            "y": 7,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "CLOUDS",
+          "STEARIN"
+        ],
+        "axis": "x"
+      }
+    ],
+    "canonical_optimal_move": {
+      "placements": [
+        {
+          "x": 1,
+          "y": 7,
+          "z": 10,
+          "letter": "R",
+          "is_blank": false
+        },
+        {
+          "x": 2,
+          "y": 7,
+          "z": 10,
+          "letter": "A",
+          "is_blank": false
+        },
+        {
+          "x": 3,
+          "y": 7,
+          "z": 10,
+          "letter": "T",
+          "is_blank": false
+        },
+        {
+          "x": 4,
+          "y": 7,
+          "z": 10,
+          "letter": "I",
+          "is_blank": false
+        },
+        {
+          "x": 5,
+          "y": 7,
+          "z": 10,
+          "letter": "N",
+          "is_blank": false
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "z": 10,
+          "letter": "E",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "z": 10,
+          "letter": "S",
+          "is_blank": false
+        }
+      ],
+      "score": 66,
+      "words": [
+        "CLOUDS",
+        "RATINES"
+      ],
+      "axis": "x"
+    }
+  },
+  {
+    "id": "prism-04",
+    "density": "bridge",
+    "dataset_version": "15x15x15-v1",
+    "board_size": 15,
+    "board": [
+      {
+        "x": 5,
+        "y": 7,
+        "z": 7,
+        "letter": "S",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "z": 7,
+        "letter": "T",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 7,
+        "letter": "O",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 8,
+        "y": 7,
+        "z": 7,
+        "letter": "N",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 9,
+        "y": 7,
+        "z": 7,
+        "letter": "E",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "z": 7,
+        "letter": "S",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "z": 7,
+        "letter": "H",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 8,
+        "z": 7,
+        "letter": "R",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "z": 7,
+        "letter": "E",
+        "is_blank": false,
+        "is_existing": true
+      }
+    ],
+    "rack": "ACDILTY",
+    "optimal_score": 73,
+    "optimal_moves": [
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 10,
+            "z": 7,
+            "letter": "D",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 8,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 9,
+            "letter": "C",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 11,
+            "letter": "Y",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 12,
+            "letter": "L",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 13,
+            "letter": "I",
+            "is_blank": false
+          }
+        ],
+        "score": 73,
+        "words": [
+          "DACTYLI",
+          "SHORED"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 10,
+            "z": 7,
+            "letter": "D",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 10,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 10,
+            "z": 7,
+            "letter": "C",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 10,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 10,
+            "z": 7,
+            "letter": "Y",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 10,
+            "z": 7,
+            "letter": "L",
+            "is_blank": false
+          },
+          {
+            "x": 13,
+            "y": 10,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          }
+        ],
+        "score": 73,
+        "words": [
+          "DACTYLI",
+          "SHORED"
+        ],
+        "axis": "x"
+      }
+    ],
+    "canonical_optimal_move": {
+      "placements": [
+        {
+          "x": 7,
+          "y": 10,
+          "z": 7,
+          "letter": "D",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 10,
+          "z": 8,
+          "letter": "A",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 10,
+          "z": 9,
+          "letter": "C",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 10,
+          "z": 10,
+          "letter": "T",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 10,
+          "z": 11,
+          "letter": "Y",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 10,
+          "z": 12,
+          "letter": "L",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 10,
+          "z": 13,
+          "letter": "I",
+          "is_blank": false
+        }
+      ],
+      "score": 73,
+      "words": [
+        "DACTYLI",
+        "SHORED"
+      ],
+      "axis": "z"
+    }
+  },
+  {
+    "id": "prism-05",
+    "density": "bridge",
+    "dataset_version": "15x15x15-v1",
+    "board_size": 15,
+    "board": [
+      {
+        "x": 5,
+        "y": 7,
+        "z": 7,
+        "letter": "S",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "z": 7,
+        "letter": "T",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 7,
+        "letter": "O",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 8,
+        "y": 7,
+        "z": 7,
+        "letter": "N",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 9,
+        "y": 7,
+        "z": 7,
+        "letter": "E",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 5,
+        "letter": "C",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 6,
+        "letter": "L",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 8,
+        "letter": "U",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 9,
+        "letter": "D",
+        "is_blank": false,
+        "is_existing": true
+      }
+    ],
+    "rack": "ABEGIRS",
+    "optimal_score": 62,
+    "optimal_moves": [
+      {
+        "placements": [
+          {
+            "x": 2,
+            "y": 7,
+            "z": 9,
+            "letter": "B",
+            "is_blank": false
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "z": 9,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 9,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 9,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 9,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 62,
+        "words": [
+          "BRIGADES"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 3,
+            "y": 7,
+            "z": 9,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "z": 9,
+            "letter": "B",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 9,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 9,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 9,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 62,
+        "words": [
+          "ABRIDGES"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 2,
+            "z": 9,
+            "letter": "B",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "z": 9,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 9,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 9,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 9,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 62,
+        "words": [
+          "BRIGADES"
+        ],
+        "axis": "y"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 3,
+            "z": 9,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "B",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "z": 9,
+            "letter": "R",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 9,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 9,
+            "letter": "S",
+            "is_blank": false
+          }
+        ],
+        "score": 62,
+        "words": [
+          "ABRIDGES"
+        ],
+        "axis": "y"
+      }
+    ],
+    "canonical_optimal_move": {
+      "placements": [
+        {
+          "x": 2,
+          "y": 7,
+          "z": 9,
+          "letter": "B",
+          "is_blank": false
+        },
+        {
+          "x": 3,
+          "y": 7,
+          "z": 9,
+          "letter": "R",
+          "is_blank": false
+        },
+        {
+          "x": 4,
+          "y": 7,
+          "z": 9,
+          "letter": "I",
+          "is_blank": false
+        },
+        {
+          "x": 5,
+          "y": 7,
+          "z": 9,
+          "letter": "G",
+          "is_blank": false
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "z": 9,
+          "letter": "A",
+          "is_blank": false
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "z": 9,
+          "letter": "E",
+          "is_blank": false
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "z": 9,
+          "letter": "S",
+          "is_blank": false
+        }
+      ],
+      "score": 62,
+      "words": [
+        "BRIGADES"
+      ],
+      "axis": "x"
+    }
+  },
+  {
+    "id": "prism-06",
+    "density": "junction",
+    "dataset_version": "15x15x15-v1",
+    "board_size": 15,
+    "board": [
+      {
+        "x": 5,
+        "y": 7,
+        "z": 7,
+        "letter": "S",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "z": 7,
+        "letter": "T",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 7,
+        "letter": "O",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 8,
+        "y": 7,
+        "z": 7,
+        "letter": "N",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 9,
+        "y": 7,
+        "z": 7,
+        "letter": "E",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "z": 7,
+        "letter": "S",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "z": 7,
+        "letter": "H",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 8,
+        "z": 7,
+        "letter": "R",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "z": 7,
+        "letter": "E",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 5,
+        "letter": "C",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 6,
+        "letter": "L",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 8,
+        "letter": "U",
+        "is_blank": false,
+        "is_existing": true
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "z": 9,
+        "letter": "D",
+        "is_blank": false,
+        "is_existing": true
+      }
+    ],
+    "rack": "AEGINT?",
+    "optimal_score": 66,
+    "optimal_moves": [
+      {
+        "placements": [
+          {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "INGESTA"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "M",
+            "is_blank": true
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TEGMINA"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "L",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GENITAL"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GENTIAN"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "INGRATE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "M",
+            "is_blank": true
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "MINTAGE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "Z",
+            "is_blank": true
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TZIGANE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "U",
+            "is_blank": true
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "UNITAGE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "letter": "V",
+            "is_blank": true
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "VINTAGE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 3,
+            "y": 7,
+            "z": 6,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "z": 6,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 7,
+            "z": 6,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 7,
+            "z": 6,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 7,
+            "z": 6,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "AT",
+          "ES",
+          "IN",
+          "NE",
+          "STEALING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "L",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GELATIN"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "S",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "INGATES"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "B",
+            "is_blank": true
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "BEATING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "L",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "ELATING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GRANITE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GRATINE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "H",
+            "is_blank": true
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "HEATING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "SEATING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "M",
+            "is_blank": true
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TEAMING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TEARING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TEASING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "EASTING"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "z": 7,
+            "letter": "S",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "EATINGS"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "H",
+            "is_blank": true
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GAHNITE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "z": 7,
+            "letter": "R",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TANGIER"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 1,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 2,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "INGESTA"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 1,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 2,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "M",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TEGMINA"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 2,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "L",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GENITAL"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 2,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "N",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GENTIAN"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "INGRATE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "M",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "MINTAGE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "Z",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TZIGANE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "U",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "UNITAGE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 3,
+            "letter": "V",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "VINTAGE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "L",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GELATIN"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "S",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "INGATES"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "B",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "BEATING"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "L",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "ELATING"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GRANITE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GRATINE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "H",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "HEATING"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "SEATING"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "M",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TEAMING"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TEARING"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 5,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TEASING"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "S",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 12,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "EASTING"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 12,
+            "letter": "S",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "EATINGS"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "H",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 12,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "GAHNITE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 12,
+            "letter": "R",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "TANGIER"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 12,
+            "letter": "N",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 13,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ANTEING",
+          "ASHORE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 12,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 13,
+            "letter": "N",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ANTIGEN",
+          "ASHORE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 8,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 9,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 10,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 11,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 12,
+            "letter": "L",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "z": 13,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "ATINGLE"
+        ],
+        "axis": "z"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": true
+          },
+          {
+            "x": 13,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ANTEING",
+          "ASHORE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 13,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": true
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ANTIGEN",
+          "ASHORE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "z": 7,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "z": 7,
+            "letter": "G",
+            "is_blank": false
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "z": 7,
+            "letter": "L",
+            "is_blank": true
+          },
+          {
+            "x": 13,
+            "y": 4,
+            "z": 7,
+            "letter": "E",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "ASHORE",
+          "ATINGLE"
+        ],
+        "axis": "x"
+      },
+      {
+        "placements": [
+          {
+            "x": 7,
+            "y": 6,
+            "z": 6,
+            "letter": "A",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 8,
+            "z": 6,
+            "letter": "E",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 9,
+            "z": 6,
+            "letter": "R",
+            "is_blank": true
+          },
+          {
+            "x": 7,
+            "y": 10,
+            "z": 6,
+            "letter": "T",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 11,
+            "z": 6,
+            "letter": "I",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 12,
+            "z": 6,
+            "letter": "N",
+            "is_blank": false
+          },
+          {
+            "x": 7,
+            "y": 13,
+            "z": 6,
+            "letter": "G",
+            "is_blank": false
+          }
+        ],
+        "score": 66,
+        "words": [
+          "AH",
+          "ALERTING",
+          "ER",
+          "RE"
+        ],
+        "axis": "y"
+      }
+    ],
+    "canonical_optimal_move": {
+      "placements": [
+        {
+          "x": 1,
+          "y": 4,
+          "z": 7,
+          "letter": "I",
+          "is_blank": false
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "z": 7,
+          "letter": "N",
+          "is_blank": false
+        },
+        {
+          "x": 3,
+          "y": 4,
+          "z": 7,
+          "letter": "G",
+          "is_blank": false
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "z": 7,
+          "letter": "E",
+          "is_blank": false
+        },
+        {
+          "x": 5,
+          "y": 4,
+          "z": 7,
+          "letter": "S",
+          "is_blank": true
+        },
+        {
+          "x": 6,
+          "y": 4,
+          "z": 7,
+          "letter": "T",
+          "is_blank": false
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "z": 7,
+          "letter": "A",
+          "is_blank": false
+        }
+      ],
+      "score": 66,
+      "words": [
+        "ASHORE",
+        "INGESTA"
+      ],
+      "axis": "x"
+    }
+  }
+]

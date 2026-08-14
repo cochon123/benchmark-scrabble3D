@@ -1,0 +1,71 @@
+# Scrabble³ Benchmark
+
+An exact-move benchmark for testing whether a language model can reason about
+Scrabble in three spatial dimensions.
+
+The benchmark preserves the contract of
+[`cochon123/benchmark_scrabble`](https://github.com/cochon123/benchmark_scrabble):
+the model receives only a fixed board and rack, returns one move, and is scored
+against an exact solver. Here, every tile occupies an `(x, y, z)` cube and words
+may run on the X, Y, or Z axis.
+
+## Rules
+
+- The board is a `15 × 15 × 15` lattice with center `(7, 7, 7)`.
+- A move places up to seven tiles on one axis.
+- Every main and cross-word (across either of the two perpendicular axes) must
+  be in the lexicon.
+- Premium cubes apply only when a tile is first placed.
+- Seven new tiles earn a 50-point spatial bingo.
+- The benchmark target is unaided board+rack → one legal, exact-optimal move.
+
+The 15-cube lattice contains 3,375 cubes, about 9.84 times the volume of the
+original 7-cube prototype. Inner premium coordinates scale from `1/5` to
+`3/11`, preserving the rotationally symmetric premium geometry. This revision
+uses dataset id `15x15x15-v1`; results from the old 7-cube dataset are retained
+but must not be compared on the same leaderboard.
+
+## Setup
+
+```bash
+python3 -m pip install -e .
+python3 -m scrabble3d_bench generate-dataset
+
+cd web
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000` for the interactive spatial board, dataset explorer,
+protocol, and run history.
+
+## Run with Codex through cli2api
+
+Start [`cochon123/cli2api`](https://github.com/cochon123/cli2api) in another
+terminal. It stays on loopback and requires a bearer token.
+
+```bash
+# from cli2api
+CLI2API_TOKEN=local-benchmark npm run serve -- --adapter codex --port 3927
+
+# from this project
+CLI2API_TOKEN=local-benchmark python3 -m scrabble3d_bench run \
+  --model codex/gpt-5.6-luna \
+  --reasoning-effort low \
+  --preset smoke
+```
+
+The client sends `reasoning_effort: "low"` through the OpenAI-compatible chat
+endpoint. Results are saved under `data/results/` and appear in the web UI.
+
+## Commands
+
+```bash
+python3 -m scrabble3d_bench generate-dataset
+python3 -m scrabble3d_bench inspect --position prism-01
+python3 -m scrabble3d_bench run --preset smoke
+python3 -m pytest
+```
+
+Use a licensed `data/lexicon/NWL23.txt` when available. The repository ships
+with ENABLE for reproducible development runs.

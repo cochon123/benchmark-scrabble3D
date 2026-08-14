@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scrabble3d-benchmark"
+version = "0.1.0"
+description = "Evaluate unaided exact-optimal Scrabble moves in a 15x15x15 lattice."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+scrabble3d-bench = "scrabble3d_bench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["scrabble3d_bench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
