@@ -29,8 +29,8 @@ export default async function RunDetailPage({ params }: { params: Promise<{ runI
         <Link href="/" className="back-link">← Current benchmark</Link>
         <div className="empty-state">
           <p className="kicker">Archived incompatible run</p>
-          <h1>This result used the previous 7 × 7 × 7 dataset.</h1>
-          <p>It is retained on disk, but is excluded from the 15 × 15 × 15 leaderboard because the datasets are not directly comparable.</p>
+          <h1>This result used an earlier fixed dataset.</h1>
+          <p>It is retained on disk, but is excluded from the current leaderboard because benchmark datasets are not directly comparable.</p>
         </div>
       </div>
     );
@@ -54,6 +54,7 @@ export default async function RunDetailPage({ params }: { params: Promise<{ runI
 
       <section className="run-metrics" aria-label="Run summary">
         <div className="primary-metric"><span>Exact optimal</span><strong>{pct(run.summary.exact_optimal_pct)}</strong><small>{run.summary.exact_optimal} of {run.boards} boards</small></div>
+        <div><span>Top-20 move <i>diagnostic</i></span><strong>{pct(run.summary.top_20_move_pct ?? 0)}</strong><small>{run.summary.top_20_moves ?? 0} of {run.boards} boards{run.summary.mean_rank_at_20 != null ? ` · mean rank ${run.summary.mean_rank_at_20.toFixed(1)}` : ""}</small></div>
         <div><span>Point ratio <i>diagnostic</i></span><strong>{pct(run.summary.score_pct)}</strong><small>{run.summary.points} / {run.summary.optimal_points} points</small></div>
         <div><span>Legal moves <i>diagnostic</i></span><strong>{pct(run.summary.legal_pct)}</strong><small>{run.summary.legal} of {run.boards} boards</small></div>
         <div><span>Estimated price <i>API equivalent</i></span><strong>{price(run.total_estimated_cost_usd)}</strong><small>{run.summary.total_tokens.toLocaleString()} tokens</small></div>

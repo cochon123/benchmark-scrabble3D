@@ -7,7 +7,7 @@ export default function ProtocolPage() {
         <b>→</b>
         <article><span>02 / MODEL</span><h2>One answer</h2><p>The model returns only new `(x,y,z,letter)` placements in a strict JSON tool envelope.</p><code>play_move_3d</code></article>
         <b>→</b>
-        <article><span>03 / VERIFIER</span><h2>Exact score</h2><p>The validator checks rack supply, collinearity, connection, every cross-word, premiums, and the solver optimum.</p><code>legal ∧ score = optimum</code></article>
+        <article><span>03 / VERIFIER</span><h2>Exact score + rank</h2><p>The validator checks legality and the solver optimum, then records the move’s tie-aware rank in the hidden top-20 window.</p><code>legal ∧ score = optimum</code></article>
       </section>
       <section className="rule-grid">
         <div className="rule-title"><span>THE LATTICE</span><h2>Spatial rules,<br />frozen.</h2></div>
@@ -18,6 +18,7 @@ export default function ProtocolPage() {
           ["04", "PREMIUMS", "A premium cube scores only on first occupation."],
           ["05", "BINGO", "Seven new cubes earn a 50-point bonus."],
           ["06", "TARGET", "Only legal exact-optimal single moves count."],
+          ["07", "RANK", "Top-20 move rank is reported only as a diagnostic."],
         ].map(([n, title, copy]) => <article key={n}><span>{n}</span><h3>{title}</h3><p>{copy}</p></article>)}
       </section>
       <section className="json-contract"><div><p className="eyebrow">OUTPUT CONTRACT</p><h2>Machine-checkable<br />by construction.</h2></div><pre>{`{

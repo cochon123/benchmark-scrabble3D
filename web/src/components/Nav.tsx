@@ -15,7 +15,7 @@ export function Nav() {
     <header className="site-header">
       <div className="header-inner">
         <Link href="/" className="brand" aria-label="Scrabble 3D benchmark home">
-          <span className="brand-cube" aria-hidden="true">S<sup>3</sup></span>
+          <span className="brand-cube" aria-hidden="true" />
           <span className="brand-copy">
             <b>Scrabble 3D</b>
             <small>Unaided model benchmark</small>

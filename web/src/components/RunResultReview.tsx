@@ -16,6 +16,11 @@ export function RunResultReview({ result, position, index }: { result: RunResult
   const [showTrace, setShowTrace] = useState(false);
   const reasoning = result.reasoning ?? result.reasoning_content ?? result.thinking ?? null;
   const outcome = result.is_optimal ? "Exact optimum" : result.is_legal ? "Legal, suboptimal" : "Illegal move";
+  const rank = !result.is_legal
+    ? "—"
+    : result.move_rank != null
+      ? `#${result.move_rank} / top ${result.move_rank_cutoff ?? 20}`
+      : `>${result.move_rank_cutoff ?? 20}`;
 
   useEffect(() => {
     if (!showTrace) return;
@@ -36,6 +41,7 @@ export function RunResultReview({ result, position, index }: { result: RunResult
           <dl className="result-facts">
             <div><dt>Score</dt><dd>{result.score} / {result.optimal_score} pts</dd></div>
             <div><dt>Ratio</dt><dd>{result.score_pct.toFixed(1)}%</dd></div>
+            <div><dt>Solver rank</dt><dd>{rank}</dd></div>
             <div><dt>Estimated price</dt><dd>{price(result.estimated_cost_usd)}</dd></div>
             <div><dt>Tokens spent</dt><dd>{result.usage?.total_tokens?.toLocaleString() ?? "—"}</dd></div>
           </dl>
@@ -46,7 +52,7 @@ export function RunResultReview({ result, position, index }: { result: RunResult
         </div>
       </div>
       <div className="result-board-wrap">
-        <SpatialBoard boardSize={position.board_size} board={position.board} highlight={showOptimal ? position.canonical_optimal_move.placements : result.move?.placements ?? []} highlightTone={showOptimal ? "optimal" : "model"} />
+        <SpatialBoard boardSize={position.board_size} board={position.board} highlight={showOptimal ? position.canonical_optimal_move.placements : result.move?.placements ?? []} highlightTone={showOptimal ? "optimal" : "model"} score={showOptimal ? position.canonical_optimal_move.score : result.score} />
       </div>
 
       {showTrace ? (

@@ -19,10 +19,13 @@ export type Position = {
   dataset_version: string;
   board_size: number;
   board: Placement[];
+  existing_words: { axis: "x" | "y" | "z"; word: string }[];
   rack: string;
   optimal_score: number;
   optimal_moves: Move[];
   canonical_optimal_move: Move;
+  top_moves: Move[];
+  legal_move_count: number;
 };
 
 export type RunResult = {
@@ -32,6 +35,9 @@ export type RunResult = {
   score_pct: number;
   is_legal: boolean;
   is_optimal: boolean;
+  move_rank?: number | null;
+  move_rank_cutoff?: number;
+  is_top_20?: boolean;
   move: Move | null;
   error: string | null;
   latency_ms: number;
@@ -68,6 +74,9 @@ export type BenchmarkRun = {
     legal_pct: number;
     exact_optimal: number;
     exact_optimal_pct: number;
+    top_20_moves?: number;
+    top_20_move_pct?: number;
+    mean_rank_at_20?: number | null;
     points: number;
     optimal_points: number;
     score_pct: number;

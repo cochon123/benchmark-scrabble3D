@@ -17,9 +17,20 @@ const COLORS = {
   model: "#ff795b",
 };
 
+const TILE_POINTS: Record<string, number> = {
+  A: 1, B: 3, C: 3, D: 2, E: 1, F: 4, G: 2, H: 4, I: 1, J: 8, K: 5,
+  L: 1, M: 3, N: 1, O: 1, P: 3, Q: 10, R: 1, S: 1, T: 1, U: 1, V: 4,
+  W: 4, X: 8, Y: 4, Z: 10,
+};
+
+function tilePoints(letter: string) {
+  return letter === "?" ? 0 : TILE_POINTS[letter.toUpperCase()] ?? 0;
+}
+
 function worldPosition({ x, y, z }: Placement, boardSize: number): [number, number, number] {
   const center = (boardSize - 1) / 2;
-  return [(x - center) * GAP, (z - center) * GAP, (y - center) * GAP];
+  // Display Z layers top-to-bottom: Z0 is the upper layer, Z14 the lower layer.
+  return [(x - center) * GAP, (center - z) * GAP, (y - center) * GAP];
 }
 
 function tileKey({ x, y, z }: Placement) {
@@ -90,10 +101,12 @@ function LetterFaces({ text }: { text: string }) {
     if (context) {
       context.clearRect(0, 0, 128, 128);
       context.fillStyle = "#07110f";
-      context.font = "900 76px Arial";
+      context.font = "900 68px Arial";
       context.textAlign = "center";
       context.textBaseline = "middle";
       context.fillText(text, 64, 67);
+      context.font = "700 24px Arial";
+      context.fillText(String(tilePoints(text)), 106, 108);
     }
     const map = new CanvasTexture(canvas);
     map.minFilter = LinearFilter;
@@ -162,7 +175,7 @@ function Lattice({ boardSize, axis, layer, showPremiums, lightMode }: { boardSiz
   const slicePosition: [number, number, number] = layer === "all" ? [0, 0, 0]
     : axis === "x" ? [(layer - center) * GAP, 0, 0]
     : axis === "y" ? [0, 0, (layer - center) * GAP]
-    : [0, (layer - center) * GAP, 0];
+    : [0, (center - layer) * GAP, 0];
   const sliceRotation: [number, number, number] = axis === "x" ? [0, 0, Math.PI / 2]
     : axis === "y" ? [Math.PI / 2, 0, 0]
     : [0, 0, 0];
@@ -235,7 +248,7 @@ function StaticBoardPreview({ boardSize, board, highlight, axis, layer }: { boar
   const boundaryEnd = last + 0.5;
   const project = (x: number, y: number, z: number) => ({
     x: 50 + (x - y) * (34 / Math.max(last, 1)),
-    y: 50 + (x + y - last) * (17 / Math.max(last, 1)) - (z - last / 2) * (34 / Math.max(last, 1)),
+    y: 50 + (x + y - last) * (17 / Math.max(last, 1)) + (z - last / 2) * (34 / Math.max(last, 1)),
   });
   const selectedPlane = layer === "all" ? null
     : axis === "x" ? [project(layer, 0, 0), project(layer, last, 0), project(layer, last, last), project(layer, 0, last)]
@@ -271,17 +284,18 @@ function StaticBoardPreview({ boardSize, board, highlight, axis, layer }: { boar
   );
 }
 
-export function SpatialBoard({ boardSize, board, highlight = [], highlightTone = "optimal", className = "" }: {
+export function SpatialBoard({ boardSize, board, highlight = [], highlightTone = "optimal", score, className = "" }: {
   boardSize: number;
   board: Placement[];
   highlight?: Placement[];
   highlightTone?: Tone;
+  score?: number;
   className?: string;
 }) {
   const [layer, setLayer] = useState<number | "all">("all");
   const [axis, setAxis] = useState<Axis>("z");
   const showPremiums = true;
-  const [selected, setSelected] = useState<{ placement: Placement; tone: Tone } | null>(null);
+  const [, setSelected] = useState<{ placement: Placement; tone: Tone } | null>(null);
   const [webglReady, setWebglReady] = useState(false);
   const [lightMode, setLightMode] = useState(false);
   useEffect(() => {
@@ -312,13 +326,7 @@ export function SpatialBoard({ boardSize, board, highlight = [], highlightTone =
           {(["x", "y", "z"] as Axis[]).map((value) => <button type="button" key={value} className={axis === value ? "active" : ""} onClick={() => { setAxis(value); setLayer("all"); }}>{value.toUpperCase()}</button>)}
         </div>
         <p className="drag-hint">DRAG TO ORBIT · SCROLL TO ZOOM</p>
-      </div>
-      <div className="board-readout">
-        {selected ? (
-          <><span className={`readout-dot ${selected.tone}`} /><b>{selected.placement.letter}</b><code>({selected.placement.x}, {selected.placement.y}, {selected.placement.z})</code><small>{selected.tone.toUpperCase()} TILE</small></>
-        ) : (
-          <><span className="readout-dot" /><b>LIVE</b><code>SELECT A CUBE</code><small>{layer === "all" ? `${axis.toUpperCase()} AXIS · FULL LATTICE` : `${axis.toUpperCase()}-LAYER ${layer}`}</small></>
-        )}
+        {score != null ? <div className="board-score" aria-label={`Move score ${score} points`}>{score} <small>PTS</small></div> : null}
       </div>
     </div>
   );

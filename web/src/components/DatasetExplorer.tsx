@@ -61,7 +61,13 @@ export function DatasetExplorer({ positions }: { positions: Position[] }) {
             <div><dt>Axis</dt><dd>{move.axis?.toUpperCase()}</dd></div>
             <div><dt>Tied moves</dt><dd>{position.optimal_moves.length}</dd></div>
             <div><dt>New cubes</dt><dd>{move.placements.length}</dd></div>
+            <div><dt>Board words</dt><dd>{position.existing_words.length}</dd></div>
+            <div><dt>Legal moves</dt><dd>{position.legal_move_count.toLocaleString()}</dd></div>
           </dl>
+          <section>
+            <span className="meta-label">Existing 3D words</span>
+            <div className="word-list">{position.existing_words.map(({ axis, word }) => <b key={`${axis}-${word}`}>{word} · {axis.toUpperCase()}</b>)}</div>
+          </section>
           <section>
             <span className="meta-label">Words formed</span>
             <div className="word-list">{move.words.map((word) => <b key={word}>{word}</b>)}</div>

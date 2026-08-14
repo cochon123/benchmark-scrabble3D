@@ -44,7 +44,7 @@ export default function BenchmarkPage() {
         <div><span>Models tested</span><strong>{uniqueModels}</strong></div>
         <div><span>Completed runs</span><strong>{completed.length}</strong></div>
         <div><span>Dataset positions</span><strong>{positions.length}</strong></div>
-        <div className="summary-primary"><span>Best point score</span><strong>{pct(bestScore)}</strong></div>
+        <div className="summary-primary"><span>Best point score <i>diagnostic</i></span><strong>{pct(bestScore)}</strong></div>
       </section>
 
       <BenchmarkCharts runs={runs} />
@@ -60,6 +60,7 @@ export default function BenchmarkPage() {
             <div className="leaderboard-head" role="row">
               <span role="columnheader">Rank / model</span>
               <span role="columnheader">Point score</span>
+              <span role="columnheader">Top-20 move</span>
               <span role="columnheader">Legal</span>
               <span role="columnheader">Avg. latency</span>
               <span role="columnheader">Tokens</span>
@@ -73,6 +74,7 @@ export default function BenchmarkPage() {
                   <span><b>{modelName(run.model)}</b><small>{run.reasoning_effort} reasoning · {run.preset} · {run.boards} board{run.boards === 1 ? "" : "s"}</small></span>
                 </span>
                 <span className="score-cell" role="cell"><strong>{pct(run.summary.score_pct)}</strong><small>{run.summary.points} / {run.summary.optimal_points} pts</small></span>
+                <span role="cell"><b>{pct(run.summary.top_20_move_pct ?? 0)}</b><small>{run.summary.top_20_moves ?? 0} / {run.boards}</small></span>
                 <span role="cell"><b>{pct(run.summary.legal_pct)}</b><small>{run.summary.legal} / {run.boards}</small></span>
                 <span role="cell"><b>{duration(run)}</b><small>per board</small></span>
                 <span role="cell"><b>{run.summary.total_tokens.toLocaleString()}</b><small>total</small></span>

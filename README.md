@@ -19,11 +19,17 @@ may run on the X, Y, or Z axis.
 - Seven new tiles earn a 50-point spatial bingo.
 - The benchmark target is unaided board+rack → one legal, exact-optimal move.
 
+Every fixed position starts with at least four connected words spanning all
+three axes, so even the smoke board requires genuinely spatial reasoning.
+The evaluator also freezes the solver's top 20 moves and reports the submitted
+move's tie-aware rank (`#1`, `#2`, …, or `>20`). Top-20 rate and rank are
+diagnostics only; they do not change the exact-optimal benchmark target.
+
 The 15-cube lattice contains 3,375 cubes, about 9.84 times the volume of the
 original 7-cube prototype. Inner premium coordinates scale from `1/5` to
 `3/11`, preserving the rotationally symmetric premium geometry. This revision
-uses dataset id `15x15x15-v1`; results from the old 7-cube dataset are retained
-but must not be compared on the same leaderboard.
+uses dataset id `15x15x15-v2`; results from earlier datasets are retained but
+must not be compared on the same leaderboard.
 
 ## Setup
 

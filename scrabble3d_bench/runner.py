@@ -9,10 +9,20 @@ from datetime import datetime, timezone
 from typing import Any
 
 from .config import RESULTS_DIR, ensure_directories, gateway_settings, lexicon_path
-from .constants import BINGO_BONUS, DATASET_VERSION, LETTER_VALUES, RACK_SIZE
+from .constants import BINGO_BONUS, DATASET_VERSION, LETTER_VALUES, RACK_SIZE, TOP_MOVE_LIMIT
 from .dataset import subset
 from .lexicon import Lexicon
 from .solver import grid_from_cells, validate_and_score_move
+
+
+def move_rank(score: int, top_moves: list[dict[str, Any]]) -> int | None:
+    """Return a competition rank when a score reaches the frozen top-N window."""
+    if not top_moves:
+        return None
+    cutoff_score = int(top_moves[-1]["score"])
+    if len(top_moves) >= TOP_MOVE_LIMIT and score < cutoff_score:
+        return None
+    return 1 + sum(int(candidate["score"]) > score for candidate in top_moves)
 
 
 def dense_board_text(position: dict[str, Any]) -> str:
@@ -178,6 +188,7 @@ def execute_run(
             error = str(exc)
         optimal_score = int(position["optimal_score"])
         score = move.score if move else 0
+        rank = move_rank(score, position.get("top_moves", [])) if move else None
         result = {
             "position_id": position["id"],
             "rack": position["rack"],
@@ -186,6 +197,9 @@ def execute_run(
             "score_pct": 100 * score / optimal_score if optimal_score else 0,
             "is_legal": move is not None,
             "is_optimal": bool(move and move.score == optimal_score),
+            "move_rank": rank,
+            "move_rank_cutoff": TOP_MOVE_LIMIT,
+            "is_top_20": rank is not None,
             "move": move.to_dict() if move else None,
             "canonical_optimal_move": position["canonical_optimal_move"],
             "error": error,
@@ -196,7 +210,8 @@ def execute_run(
         }
         results.append(result)
         outcome = "EXACT" if result["is_optimal"] else "LEGAL" if result["is_legal"] else "REJECTED"
-        print(f"    {outcome} · {score}/{optimal_score} · {latency_ms / 1000:.1f}s", flush=True)
+        rank_text = f"rank #{rank}" if rank is not None else f"rank >{TOP_MOVE_LIMIT}" if move else "unranked"
+        print(f"    {outcome} · {score}/{optimal_score} · {rank_text} · {latency_ms / 1000:.1f}s", flush=True)
         if error:
             print(f"    {error}", flush=True)
 
@@ -204,6 +219,7 @@ def execute_run(
     optimal = sum(result["is_optimal"] for result in results)
     points = sum(result["score"] for result in results)
     possible = sum(result["optimal_score"] for result in results)
+    ranked = [result["move_rank"] for result in results if result["move_rank"] is not None]
     payload = {
         "run_id": run_id,
         "dataset_version": positions[0].get("dataset_version", DATASET_VERSION) if positions else DATASET_VERSION,
@@ -219,6 +235,9 @@ def execute_run(
             "legal_pct": 100 * legal / len(results) if results else 0,
             "exact_optimal": optimal,
             "exact_optimal_pct": 100 * optimal / len(results) if results else 0,
+            "top_20_moves": len(ranked),
+            "top_20_move_pct": 100 * len(ranked) / len(results) if results else 0,
+            "mean_rank_at_20": sum(ranked) / len(ranked) if ranked else None,
             "points": points,
             "optimal_points": possible,
             "score_pct": 100 * points / possible if possible else 0,

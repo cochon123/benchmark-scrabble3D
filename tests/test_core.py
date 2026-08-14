@@ -4,9 +4,10 @@ import io
 import json
 from unittest.mock import patch
 
-from scrabble3d_bench.constants import BOARD_SIZE, CENTER, premium_at
+from scrabble3d_bench.constants import AXES, BOARD_SIZE, CENTER, TOP_MOVE_LIMIT, premium_at
+from scrabble3d_bench.dataset import existing_words, load_dataset
 from scrabble3d_bench.lexicon import Lexicon
-from scrabble3d_bench.runner import _completion, dense_board_text, prompt_for_position
+from scrabble3d_bench.runner import _completion, dense_board_text, move_rank, prompt_for_position
 from scrabble3d_bench.solver import BoardTile, in_bounds, validate_and_score_move
 
 
@@ -104,3 +105,30 @@ def test_completion_preserves_provider_reasoning_summary() -> None:
     assert content.startswith('{"tool"')
     assert reasoning == "provider summary"
     assert usage["total_tokens"] == 12
+
+
+def test_fixed_positions_use_four_words_and_all_dimensions() -> None:
+    for position in load_dataset():
+        words = existing_words(position["board"])
+        assert len(words) >= 4
+        assert {item["axis"] for item in words} == set(AXES)
+        assert len(position["top_moves"]) == TOP_MOVE_LIMIT
+        scores = [move["score"] for move in position["top_moves"]]
+        assert scores == sorted(scores, reverse=True)
+        assert scores[0] == position["optimal_score"]
+
+
+def test_solver_diagnostics_are_not_exposed_in_model_prompt() -> None:
+    position = load_dataset()[0]
+    payload = json.loads(prompt_for_position(position)[1]["content"])
+    assert set(payload) == {"benchmark", "board_size", "rack", "board_encoding", "board"}
+
+
+def test_move_rank_is_tie_aware_and_stops_after_top_twenty() -> None:
+    top_moves = [{"score": 100}, {"score": 100}, {"score": 90}]
+    assert move_rank(100, top_moves) == 1
+    assert move_rank(90, top_moves) == 3
+
+    full_window = [{"score": 100 - index} for index in range(TOP_MOVE_LIMIT)]
+    assert move_rank(81, full_window) == 20
+    assert move_rank(80, full_window) is None
