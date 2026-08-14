@@ -3,6 +3,12 @@
 An exact-move benchmark for testing whether a language model can reason about
 Scrabble in three spatial dimensions.
 
+Live demo: [benchmark-3D-scrabble.calgarypermit.ca](https://benchmark-3D-scrabble.calgarypermit.ca)
+
+![Scrabble 3D benchmark dashboard](docs/screenshots/home.png)
+
+![Dataset explorer](docs/screenshots/dataset.png)
+
 The benchmark preserves the contract of
 [`cochon123/benchmark_scrabble`](https://github.com/cochon123/benchmark_scrabble):
 the model receives only a fixed board and rack, returns one move, and is scored
@@ -47,11 +53,18 @@ protocol, and run history.
 
 ## Run with Codex through cli2api
 
-Start [`cochon123/cli2api`](https://github.com/cochon123/cli2api) in another
-terminal. It stays on loopback and requires a bearer token.
+Start the latest [`cochon123/cli2api`](https://github.com/cochon123/cli2api)
+from its `main` branch in another terminal. The project currently publishes no
+release tags; the latest upstream commit checked for this README is
+`0715e222d9229bb97e662f21cf7e5476fbbf19fd`. It stays on loopback and requires
+a bearer token.
 
 ```bash
-# from cli2api
+# latest cli2api
+git clone https://github.com/cochon123/cli2api.git
+cd cli2api
+git switch main
+git pull --ff-only origin main
 CLI2API_TOKEN=local-benchmark npm run serve -- --adapter codex --port 3927
 
 # from this project
