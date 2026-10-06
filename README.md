@@ -3,11 +3,27 @@
 An exact-move benchmark for testing whether a language model can reason about
 Scrabble in three spatial dimensions.
 
-Live demo: [benchmark-3D-scrabble.calgarypermit.ca](https://benchmark-3D-scrabble.calgarypermit.ca)
+**Live demo: [benchmark-3D-scrabble.calgarypermit.ca](https://benchmark-3D-scrabble.calgarypermit.ca)**
+
+![The 15×15×15 board orbiting in the dataset explorer](docs/media/board-orbit.gif)
+
+*Fixed lattice on the [live demo](https://benchmark-3D-scrabble.calgarypermit.ca). Highlighted cubes are the exact move. [Play the video](docs/media/board-orbit.mp4).*
+
+![Diagnostic leaderboard on the live demo](docs/media/leaderboard.png)
+
+*Model runs on the live demo, ranked by point score. Exact-optimal accuracy is reported on each run.*
+
+![A submitted move reviewed on the spatial board](docs/media/run-review.png)
+
+*One board from a completed run, with the submitted placement highlighted.*
 
 ![Scrabble 3D benchmark dashboard](docs/screenshots/home.png)
 
+*Benchmark dashboard before any runs are recorded.*
+
 ![Dataset explorer](docs/screenshots/dataset.png)
+
+*Dataset explorer for one fixed position, with the exact move highlighted.*
 
 The benchmark preserves the contract of
 [`cochon123/benchmark_scrabble`](https://github.com/cochon123/benchmark_scrabble):
